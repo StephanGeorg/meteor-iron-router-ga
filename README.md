@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/reywood/meteor-iron-router-ga.svg?branch=master)](https://travis-ci.org/reywood/meteor-iron-router-ga)
 
-Google analytics ([universal edition](https://support.google.com/analytics/answer/2790010?hl=en)) for [Meteor](https://www.meteor.com/) with some [Iron Router](https://github.com/EventedMind/iron-router) sugar for tracking page views and doing A/B testing with [Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments). This is a fork to use multiple dynamic UA,
+Google analytics ([universal edition](https://support.google.com/analytics/answer/2790010?hl=en)) for [Meteor](https://www.meteor.com/) with some [Iron Router](https://github.com/EventedMind/iron-router) sugar for tracking page views and doing A/B testing with [Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments). This is a fork to use multiple dynamic UA (for tracking to multiple Google Analytics Accounts).
 
 
 ## Installation
@@ -16,7 +16,7 @@ git submodule update
 
 ## Meteor Settings
 
-Configure analytics by adding a `ga` object to a IronRouterGA instance [Meteor settings](http://docs.meteor.com/#meteor_settings). The only required property is `id` which is your Google Analytics tracking ID.
+Configure analytics by adding a `ga` object to a IronRouterGA instance. The only required property is `id` which is your Google Analytics tracking ID.
 
 ```
 googleAnalytics = new IronRouterGa({
