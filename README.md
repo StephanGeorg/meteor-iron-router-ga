@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/reywood/meteor-iron-router-ga.svg?branch=master)](https://travis-ci.org/reywood/meteor-iron-router-ga)
 
-Google analytics ([universal edition](https://support.google.com/analytics/answer/2790010?hl=en)) for [Meteor](https://www.meteor.com/) with some [Iron Router](https://github.com/EventedMind/iron-router) sugar for tracking page views and doing A/B testing with [Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments).
+Google analytics ([universal edition](https://support.google.com/analytics/answer/2790010?hl=en)) for [Meteor](https://www.meteor.com/) with some [Iron Router](https://github.com/EventedMind/iron-router) sugar for tracking page views and doing A/B testing with [Content Experiments](https://developers.google.com/analytics/devguides/platform/experiments). This is a fork to use multiple dynamic UA,
 
 
 ## Installation
