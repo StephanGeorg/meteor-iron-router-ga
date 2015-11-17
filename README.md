@@ -8,7 +8,9 @@ Google analytics ([universal edition](https://support.google.com/analytics/answe
 ## Installation
 
 ```sh
-$ meteor add reywood:iron-router-ga
+git submodule add https://github.com/StephanGeorg/meteor-iron-router-ga.git packages/meteor-iron-router-ga
+git submodule init
+git submodule update
 ```
 
 
