@@ -14,7 +14,7 @@ $ meteor add reywood:iron-router-ga
 
 ## Meteor Settings
 
-Configure analytics by adding a `ga` section to the `public` section of your [Meteor settings](http://docs.meteor.com/#meteor_settings). The only required property is `id` which is your Google Analytics tracking ID.
+Configure analytics by adding a `ga` object to a IronRouterGA instance [Meteor settings](http://docs.meteor.com/#meteor_settings). The only required property is `id` which is your Google Analytics tracking ID.
 
 ```
 googleAnalytics = new IronRouterGa({
