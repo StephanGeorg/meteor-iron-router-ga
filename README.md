@@ -19,7 +19,7 @@ Configure analytics by adding a `ga` section to the `public` section of your [Me
 ```
 googleAnalyticsGlobal = new IronRouterGa({
     "ga": {
-        "id": Nearest._('analytics_google')
+        "id": 'UA-12345-XX'
     }
   });
 ```
