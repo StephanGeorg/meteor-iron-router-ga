@@ -1,7 +1,7 @@
 {
   "name": "meteor-iron-router-ga",
   "version": "0.0.0",
-  "description": "",
+  "description": "Dynamic UA",
   "main": "package.js",
   "dependencies": {},
   "devDependencies": {
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/reywood/meteor-iron-router-ga.git"
+    "url": "git://github.com/StephanGeorg/meteor-iron-router-ga.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reywood/meteor-iron-router-ga/issues"
+    "url": "https://github.com/StephanGeorg/meteor-iron-router-ga/issues"
   },
-  "homepage": "https://github.com/reywood/meteor-iron-router-ga"
+  "homepage": "https://github.com/StephanGeorg/meteor-iron-router-ga"
 }
