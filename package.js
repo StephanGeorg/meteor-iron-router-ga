@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'reywood:iron-router-ga',
-    summary: 'Google analytics (universal edition) with some Iron Router sugar for tracking page views.',
+    name: 'StephanGeorg:iron-router-ga',
+    summary: 'Dynamic UA Google analytics (universal edition) with some Iron Router sugar for tracking page views.',
     version: '0.7.1',
-    git: 'https://github.com/reywood/meteor-iron-router-ga.git'
+    git: 'https://github.com/StephanGeorg/meteor-iron-router-ga.git'
 });
 
 Package.onUse(function(api) {
