@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'StephanGeorg:iron-router-ga',
+    name: 'stephangeorg:iron-router-ga',
     summary: 'Dynamic UA Google analytics (universal edition) with some Iron Router sugar for tracking page views.',
     version: '0.7.1',
     git: 'https://github.com/StephanGeorg/meteor-iron-router-ga.git'
@@ -7,6 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
     api.versionsFrom('METEOR@1.0.1');
+    api.export('IronRouterGa');
     api.use([
         'accounts-base',
         'templating',
