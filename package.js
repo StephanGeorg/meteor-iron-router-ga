@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
     api.versionsFrom('METEOR@1.0.1');
-    api.export('IronRouterGa');
+    api.export('GoogleAnalytics');
     api.use([
         'accounts-base',
         'templating',
